@@ -54,7 +54,7 @@ async function addConnection(server) {
     return true;
   }
   catch (err) {
-    log(`Failed to connect to ${addr}: ${err.toString()}`);
+    log(`Failed to connect to ${server}: ${err.toString()}`);
     retryList.push(server);
     return false;
   }
