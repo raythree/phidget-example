@@ -1,0 +1,15 @@
+{
+  "name": "phidget-example",
+  "version": "0.0.1",
+  "description": "Phidget Connection Example",
+  "main": "src/index.js",
+  "repository": "https://github.com/raythree/phidget-example",
+  "scripts": {
+    "index": "node src/index.js"
+  },
+  "author": "Bill Walker",
+  "license": "ISC",
+  "dependencies": {
+    "phidget22": "^2.6.14"
+  }
+}
