@@ -40,9 +40,11 @@ async function addConnection(server) {
     },
     onDisconnect: () => {
       log(`Disconnected from server ${server}`);
+      retryList.push(server);
     },
     onError: () => {
       log(`Connection error for server ${server}`);
+      retryList.push(server);
     },
     onAuthenticationNeeded:() => {
       log(`Authenticating for ${server}`)
