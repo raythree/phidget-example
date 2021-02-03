@@ -5,7 +5,7 @@
   "main": "src/index.js",
   "repository": "https://github.com/raythree/phidget-example",
   "scripts": {
-    "index": "node src/index.js"
+    "example": "node src/index.js"
   },
   "author": "Bill Walker",
   "license": "ISC",
